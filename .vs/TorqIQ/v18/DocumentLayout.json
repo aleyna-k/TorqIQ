@@ -1,0 +1,297 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\machines\\maintenance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\machines\\maintenance\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\maintainiq.db||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:maintainiq.db||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\machines\\failures\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\machines\\failures\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\machines\\failures\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\machines\\failures\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\machines\\maintenance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\machines\\maintenance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\machines\\_machineform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\machines\\_machineform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\machines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\machines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\machines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\machines\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\machines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\machines\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|c:\\users\\aleynak\\downloads\\torqiq\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B82A11E0-0C7D-654E-4FD3-74CC32035492}|MaintainIQ.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-27T11:30:12.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "maintainiq.db",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\maintainiq.db",
+              "RelativeDocumentMoniker": "maintainiq.db",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\maintainiq.db",
+              "RelativeToolTip": "maintainiq.db",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAICSURBVDhPrZXNa9JhAIAfx6iZBM7EpWBTpzMdW6tZsA5F0K1T3QZBHwuCgsFYTiaYRFGE7NAH0aAoYtCl/8EOoRteNkhL13TiRqMlBFux\u002BfupXRL09Wfp6Dm9H8/7wHt5XxV/mPJ5M1C2VOaNUa3IJc6HQqEFcYdyuayqjKd8t8p37t6vFRQIBvyo1eofmz\u002B3zyhF28SFZrh8ZVS7X9MR9nq9g\u002BLeroIHjaaG0V0F\u002BUu0vVarZXV9g\u002BRyDrfDgtGgA0Cr1RIM\u002BKs1bXsbYaCTRsFf2zssflqmsFNgc2uLxFKadDaHw2ZmfGJS1AkG/NrKWPHK8VSGbxt5SqUingEXxaJMdvUrubV1Ua1DMTjosiPLMnaLGeshE05bN7Is0e9yiGodisF4Ko0kFYgnv7CUzrKYSCFJEu8jMVGtQzFo7NJjNOiRJInwh3mKsoxB38nw0BFRrUMx2KXXcXp4iAGXg469e3A7bZw9dZJMLsdNX4CFj3G\u002B5/PiMWgUrNBtNjFy4RzOHitPXrzm\u002BatZ\u002BnrtPHo2w8zLN6IO/wpW43b00Ndr58boJfpdh\u002Bl12EQFWgkmPieZj8WYfvyUSHSOSDQqKtBK8OrFEcauXyManWNyfIx7wduiAq0E9Qd0eI4d5d3bWU4c96DR7BMVaCXYLP89WPViT2RA1cQXoER55cHDaSvAb9pFqY18f9aRAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-04-27T11:30:08.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Maintenance\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Machines\\Maintenance\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Maintenance\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Machines\\Maintenance\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:28:42.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:23:51.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:27:43.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:23:40.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Machines\\Details.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Machines\\Details.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:28:19.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T11:18:20.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T11:30:28.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Machines\\Create.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Machines\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:28:27.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_MachineForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\_MachineForm.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Machines\\_MachineForm.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\_MachineForm.cshtml",
+              "RelativeToolTip": "Pages\\Machines\\_MachineForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:28:32.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Maintenance\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Machines\\Maintenance\\Create.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Maintenance\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Machines\\Maintenance\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:28:37.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Failures\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Machines\\Failures\\Create.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Failures\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Machines\\Failures\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:28:55.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Machines\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Machines\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:28:11.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Failures\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Machines\\Failures\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Machines\\Failures\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Machines\\Failures\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:29:01.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:23:37.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aleynak\\Downloads\\TorqIQ\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T11:23:27.022Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

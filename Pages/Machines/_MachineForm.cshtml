@@ -1,0 +1,70 @@
+@model TorqIQ.Models.Machine
+@{
+    var periods = new[] { "Annually","Semi-Annual","Quarterly","Monthly","Weekly","Daily" };
+    var energies = new[] { "Electric","Hydraulic","Pneumatic","Manual","Hybrid" };
+}
+
+<div class="field-grid">
+  <div class="field">
+    <label>Machine Code</label>
+    <input asp-for="Code" placeholder="e.g. AK-02" />
+    <span asp-validation-for="Code" class="field-error"></span>
+  </div>
+  <div class="field">
+    <label>Machine Name</label>
+    <input asp-for="Name" placeholder="e.g. Notching Machine" />
+    <span asp-validation-for="Name" class="field-error"></span>
+  </div>
+  <div class="field">
+    <label>Brand / Manufacturer</label>
+    <input asp-for="Brand" />
+  </div>
+  <div class="field">
+    <label>Maintenance Period</label>
+    <select asp-for="Period" asp-items="@(new SelectList(periods))"></select>
+  </div>
+  <div class="field">
+    <label>Plan Date</label>
+    <input asp-for="PlanDate" type="date" />
+  </div>
+  <div class="field">
+    <label>Card Date</label>
+    <input asp-for="CardDate" type="date" />
+  </div>
+</div>
+
+<div class="section-label">Technical Specifications</div>
+<div class="field-grid">
+  <div class="field">
+    <label>Energy Source</label>
+    <select asp-for="Energy" asp-items="@(new SelectList(energies))"></select>
+  </div>
+  <div class="field">
+    <label>Working Voltage</label>
+    <input asp-for="Voltage" placeholder="e.g. 380 V" />
+  </div>
+  <div class="field">
+    <label>Working Pressure</label>
+    <input asp-for="Pressure" placeholder="e.g. 200 bar" />
+  </div>
+  <div class="field">
+    <label>Total Power</label>
+    <input asp-for="Power" placeholder="e.g. 15 kW" />
+  </div>
+  <div class="field">
+    <label>Primary Usage</label>
+    <input asp-for="Usage" />
+  </div>
+</div>
+
+<div class="section-label">Description</div>
+<div class="field-grid">
+  <div class="field full">
+    <label>Specifications</label>
+    <textarea asp-for="Specs" rows="3" placeholder="Describe this machine…"></textarea>
+  </div>
+  <div class="field full">
+    <label>Additional Notes</label>
+    <textarea asp-for="Notes" rows="2" placeholder="Any extra notes…"></textarea>
+  </div>
+</div>

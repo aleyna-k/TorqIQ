@@ -1,0 +1,32 @@
+@page "/Machines/{machineId:int}/Maintenance/Edit/{id:int}"
+@model TorqIQ.Pages.Machines.Maintenance.EditModel
+@{ ViewData["Title"] = "Edit Maintenance Record"; ViewData["MachineId"] = Model.MachineId; }
+
+<div class="card">
+  <div class="header-bar">
+    <div>
+      <div class="machine-title">Edit Maintenance Record</div>
+      <div class="machine-sub">@Model.MachineName</div>
+    </div>
+    <div class="btn-row">
+      <a class="btn" href="/Machines/Details/@Model.MachineId?tab=maint">Cancel</a>
+    </div>
+  </div>
+
+  <form method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Record.Id" />
+    <div class="field-grid">
+      <div class="field"><label>Date</label><input asp-for="Record.Date" /></div>
+      <div class="field"><label>Performed By</label><input asp-for="Record.PerformedBy" /></div>
+      <div class="field full"><label>Work Done / Parts Replaced</label><textarea asp-for="Record.WorkDone" rows="3"></textarea></div>
+      <div class="field">
+        <label>Result</label>
+        <select asp-for="Record.Result"><option>OK</option><option>Pending</option><option>Failed</option></select>
+      </div>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn primary">Save Changes</button>
+    </div>
+  </form>
+</div>

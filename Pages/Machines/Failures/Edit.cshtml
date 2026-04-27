@@ -1,0 +1,42 @@
+@page "/Machines/{machineId:int}/Failures/Edit/{id:int}"
+@model TorqIQ.Pages.Machines.Failures.EditModel
+@{ ViewData["Title"] = "Edit Failure Record"; ViewData["MachineId"] = Model.MachineId; }
+
+<div class="card">
+  <div class="header-bar">
+    <div>
+      <div class="machine-title">Edit Failure Record</div>
+      <div class="machine-sub">@Model.MachineName</div>
+    </div>
+    <div class="btn-row">
+      <a class="btn" href="/Machines/Details/@Model.MachineId?tab=fail">Cancel</a>
+    </div>
+  </div>
+
+  <form method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Record.Id" />
+    <div class="field-grid">
+      <div class="field"><label>Date</label><input asp-for="Record.Date" /></div>
+      <div class="field">
+        <label>Fault Type</label>
+        <select asp-for="Record.FaultType">
+          <option value="">— Select —</option>
+          <option>Mechanical</option><option>Electrical</option>
+          <option>Pneumatic</option><option>Hydraulic</option><option>Other</option>
+        </select>
+      </div>
+      <div class="field full"><label>Fault Description</label><input asp-for="Record.Description" /></div>
+      <div class="field full"><label>Action 1</label><textarea asp-for="Record.Action1" rows="2"></textarea></div>
+      <div class="field full"><label>Action 2</label><textarea asp-for="Record.Action2" rows="2"></textarea></div>
+      <div class="field"><label>Assigned To</label><input asp-for="Record.AssignedTo" /></div>
+      <div class="field">
+        <label>Result</label>
+        <select asp-for="Record.Result"><option>OK</option><option>Pending</option><option>Failed</option></select>
+      </div>
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn primary">Save Changes</button>
+    </div>
+  </form>
+</div>

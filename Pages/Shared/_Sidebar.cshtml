@@ -1,0 +1,62 @@
+@using TorqIQ.Data
+@inject AppDbContext Db
+
+@{
+    var machines = Db.Machines.OrderBy(m => m.Code).ToList();
+    var currentId = ViewData["MachineId"] as int?;
+    var search = ViewData["Search"] as string ?? "";
+    var filtered = string.IsNullOrWhiteSpace(search)
+        ? machines
+        : machines.Where(m =>
+            m.Code.Contains(search, StringComparison.OrdinalIgnoreCase) ||
+            m.Name.Contains(search, StringComparison.OrdinalIgnoreCase)).ToList();
+}
+
+<aside class="sidebar">
+  <div class="sidebar-head">
+    <span class="sidebar-label">Machines</span>
+    <a class="new-btn" href="/Machines/Create">
+      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+        <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+      </svg>
+      New
+    </a>
+  </div>
+
+  <div class="search-wrap">
+    <form method="get" id="searchForm">
+      <div class="search-inner">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="text" name="search" value="@search"
+               placeholder="Search by code or name…"
+               oninput="this.form.requestSubmit()" />
+      </div>
+    </form>
+  </div>
+
+  <div class="machine-list">
+    @if (!filtered.Any())
+    {
+      <div class="no-results">No results found</div>
+    }
+    @foreach (var m in filtered)
+    {
+      var mCount = Db.MaintenanceRecords.Count(r => r.MachineId == m.Id);
+      var fCount  = Db.FailureRecords.Count(r => r.MachineId == m.Id);
+      <a class="machine-item @(currentId == m.Id ? "active" : "")"
+         href="/Machines/Details/@m.Id">
+        <div class="m-code">@(string.IsNullOrEmpty(m.Code) ? "—" : m.Code)</div>
+        <div class="m-name">@m.Name</div>
+        <div class="m-meta">
+          <span class="sdot"></span>@m.Period · @m.Energy
+        </div>
+      </a>
+    }
+  </div>
+
+  <div class="sidebar-foot">
+    @machines.Count machine@(machines.Count != 1 ? "s" : "") total
+  </div>
+</aside>

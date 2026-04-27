@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MaintainIQ
+build_property.RootNamespace = MaintainIQ
+build_property.ProjectDir = C:\Users\aleynak\Downloads\TorqIQ\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\aleynak\Downloads\TorqIQ
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Machines/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFjaGluZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Machines/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFjaGluZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Machines/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFjaGluZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Machines/Failures/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFjaGluZXNcRmFpbHVyZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Machines/Failures/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFjaGluZXNcRmFpbHVyZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Machines/Maintenance/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFjaGluZXNcTWFpbnRlbmFuY2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Machines/Maintenance/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFjaGluZXNcTWFpbnRlbmFuY2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Machines/_MachineForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFjaGluZXNcX01hY2hpbmVGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aleynak/Downloads/TorqIQ/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
