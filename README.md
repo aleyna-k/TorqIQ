@@ -1,113 +1,44 @@
-<<<<<<< HEAD
-# MaintainIQ — Machine Maintenance Management
+TorqIQ is a lightweight yet scalable platform that empowers operations and maintenance teams to digitize machine inventory, streamline maintenance workflows, and track failures from a single interface.
 
-Razor Pages + EF Core + SQLite (SQL Server'a geçiş hazır)
+🚀 Core Capabilities
 
----
+Machine Lifecycle Management
 
-## Kurulum (5 dakika)
+Centralized machine inventory
+Detailed machine profiles with full history tracking
+Improved asset visibility across operations
 
-### Gereksinimler
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
+Maintenance Operations
 
-### Çalıştırma
+Create and manage maintenance records
+Enable structured, scheduled maintenance workflows
+Reduce unplanned downtime through proactive tracking
 
-```bash
-cd MaintainIQ
-dotnet run
-```
+Failure & Incident Tracking
 
-Tarayıcıda aç: **http://localhost:5000**
+Log and manage failure records in real time
+Build a dataset for root cause analysis
+Identify recurring issues early
 
-İlk çalıştırmada:
-- `maintainiq.db` dosyası otomatik oluşur
-- Migration otomatik uygulanır
-- Seed data (2 örnek makine) otomatik eklenir
+Real-Time Data & Full CRUD
 
----
+Instant data updates across the system
+Clean, intuitive interface with minimal learning curve
+🧩 Technical Architecture
 
-## SQL Server'a Geçiş
+Backend
 
-`appsettings.json` dosyasını düzenle:
+ASP.NET Core Razor Pages (high performance, low overhead)
+Entity Framework Core (robust ORM layer)
+SQLite (default) with seamless transition to SQL Server
 
-```json
-{
-  "UseSqlServer": true,
-  "ConnectionStrings": {
-    "SqlServer": "Server=YOUR_SERVER;Database=MaintainIQ;Trusted_Connection=True;TrustServerCertificate=True;"
-  }
-}
-```
+Frontend
 
-Ardından migration ekle:
-
-```bash
-dotnet ef migrations add InitialCreate --context AppDbContext
-dotnet ef database update
-```
-
----
-
-## Proje Yapısı
-
-```
-MaintainIQ/
-├── Models/
-│   ├── Machine.cs
-│   ├── MaintenanceRecord.cs
-│   └── FailureRecord.cs
-├── Data/
-│   └── AppDbContext.cs          ← EF Core context + seed data
-├── Pages/
-│   ├── Shared/
-│   │   ├── _Layout.cshtml
-│   │   └── _Sidebar.cshtml
-│   ├── Machines/
-│   │   ├── Details.cshtml(.cs)  ← Makine detayı + tab'lar
-│   │   ├── Create.cshtml(.cs)
-│   │   ├── Edit.cshtml(.cs)
-│   │   ├── Maintenance/
-│   │   │   ├── Create.cshtml(.cs)
-│   │   │   └── Edit.cshtml(.cs)
-│   │   └── Failures/
-│   │       ├── Create.cshtml(.cs)
-│   │       └── Edit.cshtml(.cs)
-│   └── Index.cshtml
-├── wwwroot/
-│   ├── css/site.css             ← Tüm stiller (Poppins, light mode)
-│   └── js/site.js
-├── Migrations/
-├── appsettings.json
-└── Program.cs
-```
-
----
-
-## Özellikler
-
-- ✅ Makine listesi (sol sidebar, arama)
-- ✅ Makine ekle / düzenle / sil
-- ✅ Bakım kayıtları (ekle / düzenle / sil)
-- ✅ Arıza kayıtları (ekle / düzenle / sil)
-- ✅ Yazdır (print-friendly)
-- ✅ SQLite (local) — SQL Server'a tek satır config ile geçiş
-- ✅ Poppins font, light mode, temiz UI
-=======
-# TorqIQ
-A full-stack web application built with ASP.NET Razor Pages and SQLite for managing machine maintenance processes.
-
-## 🚀 Features
-- Machine inventory management
-- Maintenance and failure tracking
-- Scheduled maintenance planning
-- CRUD operations with SQLite database
-- Structured and responsive UI
-- Real-time data updates
-
-## 🛠️ Tech Stack
-- ASP.NET Core Razor Pages
-- C#
-- SQLite
-- HTML5, CSS3, Bootstrap
-- JavaScript
->>>>>>> 9f76e447e524d2e8d7c704962ebb03af14a0414b
+HTML5, CSS3, Bootstrap
+Responsive, modern UI
+Minimalist, operation-focused design
+⚙️ Flexibility & Scalability
+Plug-and-play setup (up and running in minutes)
+Fast local development with SQLite
+One-line configuration switch to SQL Server for enterprise scale
+Migration-ready infrastructure
